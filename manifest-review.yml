@@ -3,6 +3,6 @@ applications:
 - name: pal-tracker
   path: build/libs/pal-tracker.jar
   buildpack: https://github.com/cloudfoundry/java-buildpack.git
-  random-route: true
+  host: ga-pal-tracker-review
   env:
-      WELCOME_MESSAGE: Hello from Cloud Foundry
+      WELCOME_MESSAGE: Hello from Cloud Foundry review
