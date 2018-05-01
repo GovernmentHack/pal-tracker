@@ -19,7 +19,7 @@ public class WelcomeController {
         return message;
     }
 
-    @GetMapping("/{something}")
+    @GetMapping("/parrot/{something}")
     public String say(@PathVariable("something") String something) {
         return something;
     }
