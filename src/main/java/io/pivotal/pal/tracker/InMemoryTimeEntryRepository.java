@@ -1,6 +1,5 @@
 package io.pivotal.pal.tracker;
 
-import java.sql.Time;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -34,7 +33,6 @@ public class InMemoryTimeEntryRepository implements TimeEntryRepository {
 
     @Override
     public TimeEntry update(long id, TimeEntry timeEntry) {
-
         timeEntry.setId(id);
         dataBase.put(id, timeEntry);
         return dataBase.get(id);
