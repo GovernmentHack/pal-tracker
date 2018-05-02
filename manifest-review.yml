@@ -6,5 +6,6 @@ applications:
   host: ga-pal-tracker-review
   env:
       WELCOME_MESSAGE: Hello from the review environment
+      SECURITY_FORCE_HTTPS: true
   services:
   - tracker-database

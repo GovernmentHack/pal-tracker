@@ -6,5 +6,6 @@ applications:
   host: ga-pal-tracker
   env:
       WELCOME_MESSAGE: Hello from the production environment
+      SECURITY_FORCE_HTTPS: true
   services:
   - tracker-database
