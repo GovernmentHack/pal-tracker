@@ -5,3 +5,4 @@ fly
 flyway-5.0.7
 *.iml
 ci/variables.yml
+elevatorsaga.js
